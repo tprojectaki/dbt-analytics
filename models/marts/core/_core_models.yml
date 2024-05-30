@@ -18,13 +18,13 @@ models:
         description: Total amount paid by the customer with "success" payment status.
       - name: is_order_completed
         description: "{{ doc('is_order_completed_docblock') }}"
-      - name: dim_customers
-        description: Customer data. It allows you to analyze customers perspective linked facts.
 
 
-  - name: customer_id
-    description: Primary key of the customers.
+  - name: dim_customers
+    description: Customer data. It allows you to analyze customers perspective linked facts.
     columns:
+      - name: customer_id
+        description: Primary key of the customers.
       - name: first_name
         description: Customer first name.
       - name: last_name
